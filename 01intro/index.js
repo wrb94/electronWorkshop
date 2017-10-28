@@ -18,7 +18,11 @@ app.on('ready', () => {
     mainWindow.loadURL('file://' + path.join(__dirname, 'index.html'));
 
     require('devtron').install();
-    mainWindow.openDevTools();
+    // mainWindow.openDevTools();
+
+    mainWindow.once('ready-to-show', () => {
+        mainWindow.show();
+    });
 
     mainWindow.on('closed', () => {
         mainWindow = null;
