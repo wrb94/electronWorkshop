@@ -1,0 +1,22 @@
+{
+    "name": "electron2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . 'Markdown Editor'",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "devtron": "^1.4.0",
+        "electron": "^1.7.9",
+        "electron-is-dev": "^0.3.0",
+        "electron-packager": "^9.1.0",
+        "electron-reload": "^1.2.2",
+        "marked": "^0.3.6"
+    }
+}

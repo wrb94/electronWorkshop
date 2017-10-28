@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="browser.css">
+
+    <body>
+        <div id="controls">
+
+            <button id="back" title="Go Back">&#9664;</button>
+            <button id="forward" title="Go Forward">&#9654;</button>
+            <button id="home" title="Go Home">&#8962;</button>
+            <button id="reload" title="Reload">&#10227;</button>
+
+            <form id="location-form">
+                <div id="center-column">
+                    <input id="location" type="text" value="http://devwarsztaty.pl/">
+                </div>
+                <input type="submit" value="Go">
+            </form>
+
+        </div>
+
+        <webview></webview>
+
+    </body>
+
+    <script>
+        require('./browser.js');
+    </script>
+
+</html>

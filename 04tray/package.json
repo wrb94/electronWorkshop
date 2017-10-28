@@ -1,0 +1,19 @@
+{
+    "name": "electron1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^1.7.9"
+    },
+    "devDependencies": {
+        "devtron": "^1.4.0"
+    }
+}
